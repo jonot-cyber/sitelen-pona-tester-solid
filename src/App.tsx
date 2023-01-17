@@ -41,9 +41,9 @@ const App: Component = () => {
   return (
     <div class="h-screen flex flex-col">
       <div class="grid justify-center content-center grow select-none">
-        <p class="font-sitelen text-[80vh] leading-none">{word}</p>
+        <p class="font-sitelen text-[40vh] md:text-[80vh] leading-none">{word}</p>
       </div>
-      <div class="flex w-full">
+      <div class="flex w-full flex-col md:flex-row">
         <For each={generateList(word(), 4)}>{(word, number) =>
           <WordButton word={word} number={number()} answer={handleAnswer} />}
         </For>
