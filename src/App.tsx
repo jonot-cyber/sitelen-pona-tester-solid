@@ -1,7 +1,5 @@
 import { Component, createSignal, For } from 'solid-js';
 
-import logo from './logo.svg';
-import styles from './App.module.css';
 import wordlist from './wordlist';
 import WordButton from './WordButton';
 
