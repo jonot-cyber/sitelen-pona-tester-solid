@@ -16,7 +16,7 @@ const WordButton: Component<{word: string, number: number, answer: (guess: strin
     })
 
     return (
-        <button onclick={() => {props.answer(props.word)}} class="border-4 border-black flex p-2 m-2 flex-1">
+        <button onclick={() => {props.answer(props.word)}} class="border-4 border-black text-black bg-white flex p-2 m-2 flex-1 dark:bg-black dark:border-white dark:text-white">
             <span class="text-center text-4xl grow">{props.word}</span>
             <span>{props.number + 1}</span>
         </button>

@@ -39,9 +39,9 @@ const App: Component = () => {
   }
 
   return (
-    <div class="h-screen flex flex-col">
+    <div class="h-screen flex flex-col bg-white dark:bg-black">
       <div class="grid justify-center content-center grow select-none">
-        <p class="font-sitelen text-[40vh] md:text-[80vh] leading-none">{word}</p>
+        <p class="font-sitelen text-[40vh] md:text-[80vh] leading-none text-black dark:text-white">{word}</p>
       </div>
       <div class="flex w-full flex-col md:flex-row">
         <For each={generateList(word(), 4)}>{(word, number) =>
