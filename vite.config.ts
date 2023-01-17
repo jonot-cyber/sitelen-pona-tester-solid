@@ -8,6 +8,8 @@ export default defineConfig({
     VitePWA({
       registerType: "autoUpdate",
       manifest: {
+        name: "sitelen pona tester",
+        short_name: "sitelen pona",
         icons: [
           {
             src: 'logo192.png',
