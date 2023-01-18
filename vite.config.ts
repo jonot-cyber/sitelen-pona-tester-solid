@@ -12,14 +12,14 @@ export default defineConfig({
         short_name: "sitelen pona",
         icons: [
           {
-            src: 'logo192.webp',
+            src: 'logo192.png',
             sizes: '192x192',
-            type: 'image/webp'
+            type: 'image/png'
           },
           {
-            src: 'logo512.webp',
+            src: 'logo512.png',
             sizes: '512x512',
-            type: 'image/webp'
+            type: 'image/png'
           }
         ]
       }
